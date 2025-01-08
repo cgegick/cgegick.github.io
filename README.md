@@ -7,8 +7,7 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background: url('background-image.jpg') no-repeat center center fixed;
-            background-size: cover;
+            background: #f0f0f0;
             margin: 0;
             display: flex;
             justify-content: center;
@@ -16,21 +15,20 @@
             height: 100vh;
         }
         .container {
-            background: rgba(255, 255, 255, 0.2);
-            border-radius: 15px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            backdrop-filter: blur(10px);
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             padding: 20px;
-            max-width: 400px;
+            max-width: 600px;
             width: 100%;
             text-align: center;
         }
         h1 {
             font-size: 2em;
-            color: #fff;
+            color: #333;
         }
         p {
-            color: #fff;
+            color: #666;
         }
         a {
             color: #1e90ff;
@@ -41,9 +39,9 @@
 <body>
     <div class="container">
         <h1>Welcome to My Personal Website</h1>
-        <p>Hello! This is my modern frosted glass style personal website. Feel free to browse around and learn more about me.</p>
-        <p><a href="#">More About Me</a></p>
-        <p><a href="#">My Portfolio</a></p>
+        <p>This is a basic, modern-looking personal website. Feel free to explore and get to know me better.</p>
+        <p><a href="#">About Me</a></p>
+        <p><a href="#">My Projects</a></p>
         <p><a href="#">Contact Me</a></p>
     </div>
 </body>
