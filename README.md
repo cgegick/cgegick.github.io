@@ -3,46 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Website</title>
+    <title>My Cool 90s Website</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background: #f0f0f0;
+            font-family: 'Courier New', Courier, monospace;
+            background-color: #cccccc;
+            color: #000000;
             margin: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
+        }
+        .header {
+            background-color: #ffcc00;
+            text-align: center;
+            padding: 20px;
         }
         .container {
-            background: #fff;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            padding: 20px;
-            max-width: 600px;
-            width: 100%;
+            margin: 20px;
+        }
+        .footer {
+            background-color: #ffcc00;
             text-align: center;
-        }
-        h1 {
-            font-size: 2em;
-            color: #333;
-        }
-        p {
-            color: #666;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
         }
         a {
-            color: #1e90ff;
-            text-decoration: none;
+            color: #0000ff;
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
+    <div class="header">
+        <h1>Welcome to My 90s Personal Website</h1>
+    </div>
     <div class="container">
-        <h1>Welcome to My Personal Website</h1>
-        <p>This is a basic, modern-looking personal website. Feel free to explore and get to know me better.</p>
-        <p><a href="#">About Me</a></p>
-        <p><a href="#">My Projects</a></p>
-        <p><a href="#">Contact Me</a></p>
+        <p>Hi there! This is my super cool personal website with a totally awesome 90s vibe. Check out the links below to learn more about me and see some of my cool stuff.</p>
+        <ul>
+            <li><a href="#">About Me</a></li>
+            <li><a href="#">My Projects</a></li>
+            <li><a href="#">Contact Me</a></li>
+        </ul>
+    </div>
+    <div class="footer">
+        <p>© 2025 My Cool 90s Website</p>
     </div>
 </body>
 </html>
