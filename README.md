@@ -1,1 +1,0 @@
-# cgegick.github.io
