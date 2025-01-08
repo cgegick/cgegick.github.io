@@ -4,34 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Cool 90s Website</title>
-    <style>
-        body {
-            font-family: 'Courier New', Courier, monospace;
-            background-color: #cccccc;
-            color: #000000;
-            margin: 0;
-        }
-        .header {
-            background-color: #ffcc00;
-            text-align: center;
-            padding: 20px;
-        }
-        .container {
-            margin: 20px;
-        }
-        .footer {
-            background-color: #ffcc00;
-            text-align: center;
-            padding: 10px;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
-        }
-        a {
-            color: #0000ff;
-            text-decoration: underline;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="header">
